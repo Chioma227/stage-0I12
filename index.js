@@ -7,7 +7,6 @@ const date = new Date();
 const dateInMS = Date.now();
 
 // function to get UTCtime
-
 const triggerFnc = () => {
   currentUTCTime.innerHTML = "UTC: " + dateInMS;
 };

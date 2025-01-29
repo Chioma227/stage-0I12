@@ -17,76 +17,81 @@ body {
   background: #e0e0e0;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
-.secondaryData{
-    margin-top: 10px;
+.secondaryData {
+  margin-top: 10px;
 }
-.secondaryData >*{
-   text-align: center;
-   margin: 0;
-   line-height: 25px;
+.secondaryData > * {
+  text-align: center;
+  margin: 0;
+  line-height: 25px;
 }
-.secondaryData:nth-child(1){
- font-size: 25px;
+.secondaryData:nth-child(1) {
+  font-size: 25px;
 }
-.secondaryData:nth-child(2){
-    font-weight: 500;
-    color: rgb(56, 56, 56);
+.secondaryData:nth-child(2) {
+  font-weight: 500;
+  color: rgb(56, 56, 56);
 }
-.bio{
-    font-weight: 500;
+.bio {
+  font-weight: 500;
 }
-.imageContainer{
-    width: 100%;
+.imageContainer {
+  width: 100%;
 }
-.imageContainer img{
-    width: 100%;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+.imageContainer img {
+  width: 100%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
-.links{
-    display: flex;
-    gap: 5px;
+.links {
+  display: flex;
+  gap: 5px;
 }
-.location{
-    display: flex;
-    align-items: center;
-    gap: 3px;
+.location {
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
-.separator{
-    border-left: 2px solid #ccc;
-    height: 20px;
-    margin: 0 10px;
+.separator {
+  border-left: 2px solid #ccc;
+  height: 20px;
+  margin: 0 10px;
 }
-a, .location i{
-    color: rgb(117, 117, 117);
+a,
+.location i {
+  color: rgb(117, 117, 117);
 }
-footer{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@media (max-width:566px) {
-    .bio{
-        font-size: 13px;
-    }
-    .secondaryData:nth-child(2){
-       font-size: 13px;
-    }
-    .container{
-        padding: 10px;
-    }
-    footer{
-        margin-top: 50px;
-       flex-direction: column;
-       gap: 8px;
-    }
-    .separator{
-        display: none;
-    }
-    .location, .time{
-        font-size: 13px;
-        margin: 0;
-    }
+@media (max-width: 566px) {
+  .bio {
+    font-size: 13px;
+  }
+  .secondaryData:nth-child(2) {
+    font-size: 13px;
+  }
+  .container {
+    padding: 10px;
+  }
+  footer {
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .separator {
+    display: none;
+  }
+  .location,
+  .time {
+    font-size: 13px;
+    margin: 0;
+  }
+  .links {
+    gap: 15px;
+  }
 }
